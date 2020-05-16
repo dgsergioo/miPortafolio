@@ -44,6 +44,7 @@ h1 strong{
     border-style: solid; */
     border: 1px solid gray;
     border-radius: 10px;
+    margin: 15px;
 }
 
 .project-details{
