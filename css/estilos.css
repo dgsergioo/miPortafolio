@@ -36,6 +36,15 @@ h1 strong{
     color: #026fff;
 }
 
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro' sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
 ol, ul{
     margin: 0;
     padding: 0;
@@ -48,6 +57,7 @@ figure{
 
 .portfolio{
     background-color: #fafafa;
+    padding: 20px;
 }
 
 .project{
@@ -60,10 +70,39 @@ figure{
     border-style: solid; */
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
     margin-bottom: 15px;
     padding: 20px;
     background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-course{
+    margin: 10px 0;
+}
+
+.project-date{
+    margin: 10px 0;
+}
+
+.project-url{
+    margin: 10px 0;
+}
+
+.project-description{
+    font-size: 20px;
+}
+
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+
 }
 
 .project-details{
@@ -132,3 +171,86 @@ figure{
     color: white;
 }
 
+.event-list{
+    display: flex;
+}
+
+.event-list-title{
+    margin-left: 10px;
+}
+
+.event{
+    /* border: 1px blue solid; */
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4fbff;
+}
+
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+}
+
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.social{
+    border: 1px solid red;    
+}
+
+.social-link{
+    display: inline-block;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+}
+
+.social-link.twitter{
+    background-image: url('../imagenes/twitter.svg');
+    background-size: 50px 50px;
+}
+.social-link.facebook{
+    background-image: url('../imagenes/facebook.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.instagram{
+    background-image: url('../imagenes/twitter.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.github{
+    background-image: url('../imagenes/twitter.svg');
+    background-size: 50px 50px;
+}
