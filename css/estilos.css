@@ -27,12 +27,23 @@ h1{
     font-size: 40px;
     letter-spacing: -.2px;
     color: white;
+    margin: 0;
     /* text-transform: uppercase; */
     /* text-decoration: underline; */
 }
 
 h1 strong{
     color: #026fff;
+}
+
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
 }
 
 .portfolio{
@@ -63,14 +74,35 @@ h1 strong{
     width: 500px;
 }
 
+.menu{
+    height: inherit;
+}
+
 .header{
     background-color: #1b2127;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
 }
 
 .header a{
     color: white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .hero{
@@ -80,5 +112,23 @@ h1 strong{
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #1b2127;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+
+.footer a{
+    color: white;
 }
 
